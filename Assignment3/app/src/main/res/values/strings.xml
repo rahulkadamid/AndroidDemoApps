@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">assignment3</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_me">About Me</string>
+    <string name="ms_in_computer_engineering">CIS 600 Android Programming</string>
+    <string name="rahul_kadam">Rahul Kadam</string>
+    <string name="myimage">myimage</string>
+</resources>

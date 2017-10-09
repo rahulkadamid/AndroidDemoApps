@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="rahul_kadam">Name:   Rahul Kadam</string>
+    <string name="course_cis600">Course: CIS 600</string>
+    <string name="assignment_no_2">Assignment No: 2</string>
+    <string name="my_image">my_image</string>
+    <string name="action_one">Task 1</string>
+    <string name="action_two">Task 2</string>
+    <string name="action_three">Task 3</string>
+    <string name="action_four">Task 4</string>
+    <string name="action_five">Task 5</string>
+    <string name="multiply">*</string>
+    <string name="equal">=</string>
+    <string name="modulus">%</string>
+    <string name="_0">0</string>
+    <string name="divide">/</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="ac">AC</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="_4">4</string>
+    <string name="mycalculator">MyCalculator</string>
+</resources>

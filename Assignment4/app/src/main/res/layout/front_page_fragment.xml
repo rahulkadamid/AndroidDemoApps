@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frontpagefragment"
+    android:background="@color/frontPage">
+
+    <TextView
+        android:id="@+id/andro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="107dp"
+        android:textSize="25sp"
+        android:textColor="@color/text_color"
+        android:text="Android Programming"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp" />
+
+    <ImageView
+
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/imgvi1"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/frontpage_pic"
+        android:layout_below="@+id/andro"
+        android:layout_alignStart="@+id/andro"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@color/frontPage"
+        android:background="@color/actionBar"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="About Me"
+        android:layout_below="@+id/imgvi1"
+        android:layout_alignStart="@+id/imgvi1" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@color/frontPage"
+        android:background="@color/actionBar"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="RecyclerView"
+        android:layout_below="@+id/imgvi1"
+        android:layout_alignEnd="@+id/andro" />
+
+
+</RelativeLayout>

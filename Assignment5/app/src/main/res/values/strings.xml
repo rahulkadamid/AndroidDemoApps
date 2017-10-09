@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment5</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about_me">About Me</string>
+    <string name="ms_in_computer_engineering">CIS 600 Android Programming</string>
+    <string name="rahul_kadam">Rahul Kadam</string>
+    <string name="myimage">myimage</string>
+    <string name="rahul_kadam2">Rahul Kadam</string>
+    <string name="rkadam_syr_edu">rkadam@syr.edu</string>
+</resources>
