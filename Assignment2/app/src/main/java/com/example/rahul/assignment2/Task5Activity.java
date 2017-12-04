@@ -14,11 +14,11 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.RatingBar;
+
 import java.util.HashMap;
 
 public class Task5Activity extends AppCompatActivity {
 
-    private GestureDetectorCompat detector;
     MovieData movieData = null;
     TextView textView;
     TextView textView2;
@@ -28,6 +28,7 @@ public class Task5Activity extends AppCompatActivity {
     ImageView imageViewMovie;
     SeekBar seekBar;
     int i = 0;
+    private GestureDetectorCompat detector;
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
@@ -50,12 +51,12 @@ public class Task5Activity extends AppCompatActivity {
         String overview = (String) movie2.get("overview");
         textView2.setText(overview);
         String language = (String) movie2.get("language");
-        textView4.setText("Language: " +language);
+        textView4.setText("Language: " + language);
         String release = (String) movie2.get("release");
-        textView3.setText("Release Date: " +release);
+        textView3.setText("Release Date: " + release);
         movie2.get("release");
         double r = (Double) movie2.get("voteAverage");
-        float f = (float)r / 2.0f;
+        float f = (float) r / 2.0f;
         ratebar.setRating(f);
     }
 

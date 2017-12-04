@@ -15,38 +15,38 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-        setSupportActionBar (myToolbar);
+        setSupportActionBar(myToolbar);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu_main , menu );
-        return true ;
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected (MenuItem item ) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent;
-        switch ( item.getItemId ()) {
-            case R.id.action_one :
-                return true ;
-            case R.id.action_two :
-                intent = new Intent( MainActivity.this , Task2Activity.class );
-                startActivity( intent );
-                return true ;
-            case R.id.action_three :
-                intent = new Intent( MainActivity.this , Task3Activity.class );
-                startActivity( intent );
-                return true ;
-            case R.id.action_five :
-                intent = new Intent( MainActivity.this , Task5Activity.class );
-                startActivity( intent );
-                return true ;
-            default :
+        switch (item.getItemId()) {
+            case R.id.action_one:
+                return true;
+            case R.id.action_two:
+                intent = new Intent(MainActivity.this, Task2Activity.class);
+                startActivity(intent);
+                return true;
+            case R.id.action_three:
+                intent = new Intent(MainActivity.this, Task3Activity.class);
+                startActivity(intent);
+                return true;
+            case R.id.action_five:
+                intent = new Intent(MainActivity.this, Task5Activity.class);
+                startActivity(intent);
+                return true;
+            default:
                 // If we got here , the user 's action was not recognized .
                 // Invoke the superclass to handle it.
-                return super.onOptionsItemSelected( item );
+                return super.onOptionsItemSelected(item);
         }
     }
 }
