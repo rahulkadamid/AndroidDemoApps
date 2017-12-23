@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycle_fragment_menu"
+    tools:context="com.example.rahul.assignment9.task2">
+    <item
+        android:id="@+id/recycle_toolbar_imageview"
+        android:icon="@drawable/dp"
+        android:orderInCategory="100"
+        android:title="image_recycleview_toolbar"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/recycleview_toolbar_title"
+        android:orderInCategory="100"
+        android:title="MovieList"
+        app:showAsAction="always">
+    </item>
+</menu>

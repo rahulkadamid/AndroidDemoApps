@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Assignment10</string>
+    <string name="action_settings">Settings</string>
+    <string name="sort">SORT</string>
+    <string name="selectall">SELECTALL</string>
+    <string name="clearall">CLEARALL</string>
+    <string name="delete">DELETE</string>
+    <string name="about_me">About Me</string>
+    <string name="ms_in_computer_engineering">CIS 600 Android Programming</string>
+    <string name="rahul_kadam">Rahul Kadam</string>
+    <string name="myimage">myimage</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Android Programming</string>
+    <string name="slide_1_desc">My Android Programming Assignments</string>
+
+    <string name="slide_2_title">Assignment 10</string>
+    <string name="slide_2_desc">Animation and Drawable</string>
+
+    <string name="slide_3_title">Welcome</string>
+    <string name="slide_3_desc">My Assignment 10!</string>
+
+    <string name="slide_4_title">Rahul Kadam</string>
+    <string name="slide_4_desc">MS in Computer Engineering</string>
+
+    <string name="reset_button">RESET</string>
+</resources>

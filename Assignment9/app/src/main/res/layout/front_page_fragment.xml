@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frontpagefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frontPage">
+
+    <TextView
+        android:id="@+id/andro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgvi1"
+        android:layout_centerHorizontal="true"
+        android:text="Android Programming"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+
+        android:id="@+id/imgvi1"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_alignEnd="@+id/andro"
+        android:layout_alignStart="@+id/andro"
+        android:layout_centerVertical="true"
+        android:src="@drawable/frontpage_pic" />
+
+
+</RelativeLayout>
