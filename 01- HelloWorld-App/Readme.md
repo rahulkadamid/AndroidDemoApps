@@ -2,5 +2,4 @@
 
 ## Requirements:
 
-![requirements](/AndroidDemoApps/01- HelloWorld-App/Assignment 1.PNG)
-
+![](AndroidDemoApps/01-%20HelloWorld-App/Assignment%201.PNG)
